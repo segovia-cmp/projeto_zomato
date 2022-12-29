@@ -147,7 +147,7 @@ aux = (df.loc[:,['country', 'restaurant_id']]
 fig = px.bar(aux,x='country',y='restaurant_id'
                 ,labels={'country': 'Paises','restaurant_id': 'Quantidade de restaurantes'}
                 ,color_discrete_sequence=px.colors.qualitative.T10
-                ,template='plotly_white'
+                ,template='plotly_dark'
                 ,text='restaurant_id')
 fig.update_layout(title_text='Quantidade de restaurantes registrado por paises', title_x=0.5)
 fig.update_traces(textposition='inside',texttemplate='%{text:.2s}')
@@ -170,7 +170,7 @@ fig = px.bar(aux,x='country',y='city'
                 ,title='Quantidade de cidades registrada por pais'
                 ,labels={'country': 'Paises','city': 'Quantidade de restaurantes'}
                 ,color_discrete_sequence=px.colors.qualitative.T10
-                ,template='plotly_white'
+                ,template='plotly_dark'
                 ,text='city')
 fig.update_layout(title_text='Quantidade de cidades registrada por pais', title_x=0.5)
 fig.update_traces(textposition='inside')
@@ -194,7 +194,7 @@ with st.container():
                                ,title=('Média de avaliação feita por pais')
                                ,labels={'country': 'Paises','votes': 'Quantidade de avaliações'}
                                ,color_discrete_sequence=px.colors.qualitative.T10
-                               ,template='plotly_white'
+                               ,template='plotly_dark'
                                ,text='votes')
             fig.update_layout(title_text=('Média de avaliação feita por pais'), title_x=0.5)
             fig.update_traces(textposition='inside')
@@ -215,7 +215,7 @@ with st.container():
                                ,title='Média de preço de prato para duas pessoas'
                                ,labels={'country': 'Paises','average_cost_for_two': 'Preço de prato para duas pessoas'}
                                ,color_discrete_sequence=px.colors.qualitative.T10
-                               ,template='plotly_white'
+                               ,template='plotly_dark'
                                ,text='average_cost_for_two')
             fig.update_layout(title_text='Média de preço de prato para duas pessoas', title_x=0.5)
             fig.update_traces(textposition='auto')

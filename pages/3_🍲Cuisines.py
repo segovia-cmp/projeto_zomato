@@ -254,7 +254,7 @@ with st.container():
             fig = px.bar(aux,x='cuisines',y='aggregate_rating'
                             ,labels={'cuisines': 'Tipo de culinária','aggregate_rating': 'Média da avaliação'}
                             ,color_discrete_sequence=px.colors.qualitative.T10
-                            ,template='plotly_white'
+                            ,template='plotly_dark'
                             ,text='aggregate_rating')
             fig.update_layout(title_text=(f'Top {num_slider} melhores tipos de culinária'), title_x=0.5)
             fig.update_traces(textposition='inside',texttemplate='%{text:.2s}')
@@ -275,7 +275,7 @@ with st.container():
             fig = px.bar(aux,x='cuisines',y='aggregate_rating'
                             ,labels={'cuisines': 'Tipo de culinária','aggregate_rating': 'Média da avaliação'}
                             ,color_discrete_sequence=px.colors.qualitative.T10
-                            ,template='plotly_white'
+                            ,template='plotly_dark'
                             ,text='aggregate_rating')
             fig.update_layout(title_text=(f'Top {num_slider} piores tipos de culinária'), title_x=0.5)
             fig.update_traces(textposition='inside',texttemplate='%{text:.2s}')

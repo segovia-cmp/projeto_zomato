@@ -11,7 +11,8 @@ A [Zomato](https://www.zomato.com/) é um serviço de busca que torna possível 
 
 
 
-Como conclusão do curso "Analisando dados com python", resolvi pôr em prática os novos conteúdos e fiz como projeto final uma análise de dados colhendo informações relevantes da Zomato. 
+Nesse projeto, os conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com com ferramentas de desenvolvimento web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa Marketplace de delivery de comida na India.
+O resultado final do projeto foi um painel hospedado em um ambiente Cloud de disponivel através de um link web. O painel pode ser acessado por qualquer dispositivo conectado com a internet. 
 
 ### Etapas realizadas
 * Dados adquiridos pelo [Kaggle](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data)
